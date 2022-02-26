@@ -7,9 +7,12 @@ void main()
             
             for  name in birthdays:
             print(name)
-            print('birthday of which friend?')
+            print('birthday of which friend?');
             name = input()
+            
             if   name in birthdays :
                  print('{}\'s birthday is {}.'.format(name,birthdays[name]))
-              else
+              else:
+                     print( 'could not find {}'\s birthday.'format(name));
+                     
     
